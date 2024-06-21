@@ -1,3 +1,7 @@
+## Denial of Service Demonstration
+
+**Since Attack.sol doesn't have a fallback function which is necessary to accept ETH payments, sent is always false and thus the current winner is never updated and secondAddress can never become the current winner making the further calls reverting the execution..!
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
